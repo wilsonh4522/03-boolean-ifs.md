@@ -25,7 +25,12 @@ for(int i = 1; i >= 10; i++){
 
 ### Challenge 2 -
 Another challenge that I had is with truth tables; I found this topic to be confusing and challenging to learn. In the truth table `!False` would equal to true and `!True` would equal to false. For this topic I came up with a method. `!` is negative, `false ` is negative, and `true` is positive. For example `!False` would equal to `- -` this would equal to a positive since negative multipled by a negative would equal to a postive. In the exam I got a question wrong similar to this. 
+```js
+!A || !B = -+ || -- = True
 
+
+
+```
 ### Challenge 3
 For this challenge I answered a question in the exam wrong. Take a look below
 ```js
@@ -41,7 +46,10 @@ else
     System.out.print("not equal ");
 }
 ```
-For this question I answered equal since I thought Car(4, 2) == Car(4, 2). However I was wrong because they are not the same object. It is like having a physical Honda and Mercedes they are a car but they are different. 
+For this question I answered equal since I thought Car(4, 2) == Car(4, 2). However I was wrong because they are not the same object. It is like having a physical Honda and Mercedes they are both a car but they are different kinds and looks.
+
+### Challenge 4
+
 
 ### Takeaways
 * If you have trouble memorzing something, come up with a unique way in which you can memorize it. For example I didn't understand truth value so I imagined `!` and `false` as negatives and `true` as postive. 
