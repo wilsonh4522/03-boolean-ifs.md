@@ -49,7 +49,23 @@ else
 For this question I answered equal since I thought Car(4, 2) == Car(4, 2). However I was wrong because they are not the same object. It is like having a physical Honda and Mercedes they are both a car but they are different kinds and looks.
 
 ### Challenge 4
+In this challenge I will show what I got wrong on my exam.
+```
+A|B
+1 1 = 1
+1 0 = 1
+0 1 = 1
+0 0 = 0
+```
+I had to plug in the values in the equation as 1 = True and 0 = False. I got this question wrong and the correct answer is A || (A || !B). Below I will show you my work
 
-
+```
+True || ____ = True //Used short circut method
+True || ____ = True //Used short circut method
+False || True = True
+False || False = False
+```
 ### Takeaways
-* If you have trouble memorzing something, come up with a unique way in which you can memorize it. For example I didn't understand truth value so I imagined `!` and `false` as negatives and `true` as postive. 
+* If you have trouble memorzing something, come up with a unique way in which you can memorize it. For example I didn't understand truth value so I imagined `!` and `false` as negatives and `true` as postive.
+* Always plug in values when you can so you know it is 100% right
+* Review your notes and project stem before a test
